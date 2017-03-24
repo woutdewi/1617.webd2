@@ -1,2 +1,2 @@
-# 1617.webd2
-opdracht webdesign 2: new media agency
+# drdynscript.github.io
+drdynscrip's personal wicked webspace for the 633|&lt; mass 
