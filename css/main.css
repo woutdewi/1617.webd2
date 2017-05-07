@@ -1,28 +1,40 @@
-* {
-  box-sizing: border-box;
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
-}
 
 body {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background: rgba(26,35,126 ,1) url('../assets/images/home.jpg') no-repeat center center fixed;
-  background-size: cover;
-
-  color: rgba(232,234,246 ,1);
+   background-color: #505050;
+   background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif; 
 }
 
-.intro {
-  width: 90vw;
-
-  padding: 1rem;
-  margin-top: 1rem;
-
-  background: rgba(41,182,246 ,1);
-  color: rgba(1,87,155 ,1);
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #315234;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+li a:hover {
+    background-color: #111;
+}
+li a:active {
+    background-color: darkorange;
+}
+
+.contact_title {
+    font-size: 50px;
+    text-align: center;
+    color: #315234;
+}
+

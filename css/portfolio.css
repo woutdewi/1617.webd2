@@ -1,0 +1,53 @@
+*{box-sizing: border-box;}
+.container_logos{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #505050;
+}
+.grid_row::after {clear: both; content:'';display: table;}
+  
+.grid_project1 {
+    width: 25%;
+    height: 350px;
+    float: left;
+    margin: 0;
+    padding:65px;
+}
+.banner1 {
+    background-image:url("../assets/images/logo1.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner2 {
+    background-image:url("../assets/images/logo2.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner3 {
+    background-image:url("../assets/images/logo3.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner4 {
+    background-image:url("../assets/images/logo4.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner5 {
+    background-image:url("../assets/images/logo5.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grid_project2 {
+    width: 50%;
+    height: 700px;
+    float: left;
+    margin:0px;
+    padding:65px;
+}
