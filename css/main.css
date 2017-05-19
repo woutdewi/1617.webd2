@@ -37,4 +37,8 @@ li a:active {
     text-align: center;
     color: #315234;
 }
+#locatietekst {
+    padding-top: 100px;
+    font-size: 18px;
+}
 

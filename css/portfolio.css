@@ -44,10 +44,32 @@
     background-position: center;
 }
 
+.banner6 {
+    background-image:url("../assets/images/logo6.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner7 {
+    background-image:url("../assets/images/logo7.png");
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container_videos{
+    padding-left:65px;
+    
+}
+
 .grid_project2 {
     width: 50%;
     height: 700px;
     float: left;
     margin:0px;
-    padding:65px;
+    padding-left:65px;
+    position: 100px;
+}
+h2, h1, p{
+    padding-left:  65px;
 }
