@@ -15,7 +15,6 @@ body, html {
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777;
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -85,6 +84,16 @@ h3 {
     font-size:25px;
     color: #f7f7f7;
     letter-spacing: 10px;
+}
+
+.textlink {
+  
+    color: #f7f7f7;
+    text-decoration:none;
+}
+
+.textlink:hover{
+    text-decoration: underline;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
