@@ -3,7 +3,8 @@
 }
 .container{
     width: 100%;
-    margin: 0 auto;     
+    margin: 0 auto; 
+   
 }
 .clearfix::after,
 .grid__row::after{
@@ -16,6 +17,7 @@
 .grid__column-4,
 .grid__column-6,
 .grid__column-12 {
+     border-color:transparent;
     display: block;
     float: left;
     padding: 20px;

@@ -1,17 +1,35 @@
 
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
 body {
    background-color: #505050;
    background-size: 100%;
     font-family: Arial, Helvetica, sans-serif; 
+      position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+body {
+    margin: 0;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+#nav {
+	background-color: #333;
+    border: 1px solid #333;
+    opacity: 0.8;
+    text-align: center;
 }
+
 
 li {
     float: left;
@@ -24,6 +42,29 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     }
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+ul li {
+    float: left;
+    margin: 0 20px;
+}
+
+ul li a {
+    color: #315234;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
 
 li a:hover {
     background-color: #111;
@@ -42,12 +83,14 @@ li a:active {
     font-size: 18px;
 }
 
-.footer{
-    text-align: center;
-    background-color:#333;
-  margin-top: 315px;
-  padding-bottom: 20px;
-  padding-top: 20px;
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color:#333;
+  text-align: center;
 }
 .fa {
 
@@ -82,3 +125,7 @@ li a:active {
     color:white;
     background:#1ab7ea;
 }
+
+
+
+
