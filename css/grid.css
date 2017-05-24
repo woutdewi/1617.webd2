@@ -17,7 +17,7 @@
 .grid__column-4,
 .grid__column-6,
 .grid__column-12 {
-     border-color:transparent;
+     border-color:bla;
     display: block;
     float: left;
     padding: 20px;
