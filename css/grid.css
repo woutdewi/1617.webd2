@@ -17,12 +17,12 @@
 .grid__column-4,
 .grid__column-6,
 .grid__column-12 {
-     border-color:bla;
+     border-color:black;
     display: block;
     float: left;
     padding: 20px;
     margin: 0;
-    border-style: tranparent;
+    border-style: transparent;
 }
 .grid__column-3 {width: 25%}
 .grid__column-4 {width: 33.33%}
