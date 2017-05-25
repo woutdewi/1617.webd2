@@ -12,8 +12,8 @@ html {
 body {
    background-color: #555;
    background-size: 100%;
-   font: 400 15px/1.8 "Lato", sans-serif;
-      position: relative;
+    font: 400 18px/1.8 "Lato", sans-serif;
+  position: relative;
   margin: 0;
   padding-bottom: 6rem;
   min-height: 100%;
@@ -68,14 +68,8 @@ li a:active {
     background-color: #315234;
 }
 
-.contact_title {
-    font-size: 50px;
-    text-align: center;
-    color: #315234;
-}
-#locatietekst {
-    padding-top: 100px;
-    font-size: 18px;
+.nav_button a.activepage{
+    color:#315234;
 }
 
 .footer {
@@ -119,7 +113,4 @@ li a:active {
 .fa-vimeo {
     color:white;
     background:#1ab7ea;
-}
-.textlink {
-
 }
