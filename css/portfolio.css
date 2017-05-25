@@ -67,13 +67,15 @@ color:#333;
     padding:65px;
 }
 .grid_project2{
-    width:530px;
+    width:50%;
+    height: 500px;
     float:left;
     padding:30px;
 
 }
 .grid_project3{
-    width:530px;
+    width:50%;
+    height: 500px;
     float:right;
     padding:30px;
 }
