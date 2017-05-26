@@ -1,9 +1,6 @@
 .container_diensten{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    background-color: #404040;
-    margin-left:5%;
-    margin-right:5%;
 }
 .grid_row::after {clear: both; content:'';display: table;}
   
