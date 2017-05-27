@@ -117,6 +117,24 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.banner8 {
+    background-image:url("../assets/images/15.png");
+    background-size:200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner9 {
+    background-image:url("../assets/images/14.png");
+    background-size:200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner10 {
+    background-image:url("../assets/images/16.png");
+    background-size:200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 h2, h1, p{
     padding-left: 5%;
