@@ -1,9 +1,9 @@
 /* Convert Root EM (rem) from 16px to 10px */
 html{
-  font-size: 62.5%;
+  font-size: 100%;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'lato', sans-serif;
   font-size: 1.4rem;
   font-weight: 300;
   font-style: normal;
@@ -11,12 +11,13 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-family:'lato', sans-serif;
+  font-size: 25px;
   font-weight: 500;
   font-style: normal;
   line-height: 1.42;
   margin-bottom: 0.26em;
+  letter-spacing:10px; 
 }
 
 h1 {

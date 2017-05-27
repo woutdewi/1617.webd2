@@ -1,5 +1,5 @@
 .container_diensten{
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
 }
 .grid_row::after {clear: both; content:'';display: table;}
@@ -20,7 +20,7 @@
 }
 .logo_design{
     background-image:url('../assets/images/7.jpg');
-    background-size: 600px;
+    background-size: 500px;
     background-repeat: no-repeat;
     background-position: right;
     opacity: 0.7;
@@ -56,29 +56,22 @@
 }
 .fotography{
     background-image:url('../assets/images/8.jpg');
-    background-size: 600px;
+    background-size: 500px;
     background-repeat: no-repeat;
     background-position: left;
     opacity: 0.7;
 }
 .film_making{
     background-image:url('../assets/images/9.jpg');
-    background-size: 600px;
+    background-size: 500px;
     background-repeat: no-repeat;
     background-position: right;
     opacity: 0.7;
 }
 .webdesign{
         background-image:url('../assets/images/9.png');
-    background-size: 600px;
+    background-size: 500px;
     background-repeat: no-repeat;
     background-position: left;
-    opacity: 0.7;
-}
-.music_production{
-        background-image:url('../assets/images/10.jpg');
-    background-size: 600px;
-    background-repeat: no-repeat;
-    background-position: right;
     opacity: 0.7;
 }

@@ -60,6 +60,7 @@
     color:rgba(200,200,200,0.7);
 }
 .grid_row::after {clear: both; content:'';display: table;}
+
 #oproep{
     color:rgba(255, 255, 255, .8);
     font-size: 30px;
